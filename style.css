@@ -21,6 +21,13 @@
   font-weight: 400;
   letter-spacing: 3px;
 }
+.navbar-brand > img {
+  height: 10vh;
+  transition: linear 0.4s;
+  border-radius: 10px;
+  display: inline-block;
+  margin-right: 2px;
+}
 
 .nav-menu {
   background: transparent;
@@ -199,7 +206,7 @@
 .text a {
   display: inline-block;
   font-size: 1em;
-  background: #fff;
+  background: #ffad55;
   padding: 10px 30px;
   text-decoration: none;
   color: #111;
