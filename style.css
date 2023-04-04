@@ -17,7 +17,7 @@
   padding-top: 10px;
   padding-bottom: 5px;
   font-family: "Josefin Sans", sans-serif;
-  font-size: 25px;
+  font-size: 2vh;
   font-weight: 400;
   letter-spacing: 3px;
 }
@@ -44,7 +44,7 @@
 
 .menu-item {
   font-family: "Josefin Sans", sans-serif;
-  font-size: 11px;
+  font-size: 2vh;
   letter-spacing: 2px;
   color: white;
   text-transform: uppercase;
@@ -93,7 +93,7 @@
 .dropdown-item {
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
-  font-size: 13px;
+  font-size: 2vh;
   letter-spacing: 1px;
 }
 
@@ -146,14 +146,6 @@
   height: 60px;
   background-repeat: no-repeat;
   background-size: 30px;
-  background-position: center;
-  cursor: pointer;
-}
-
-.toggle.active {
-  background: url(https://i.ibb.co/rt3HybH/close.png);
-  background-repeat: no-repeat;
-  background-size: 25px;
   background-position: center;
   cursor: pointer;
 }
@@ -223,7 +215,7 @@
 
 .social {
   position: absolute;
-  bottom: 100px;
+  bottom: 25vh;
   z-index: 10;
   display: flex;
   justify-content: center;
@@ -238,7 +230,7 @@
   display: inline-block;
   filter: invert(1);
   margin-right: 20px;
-  transform: scale(0.5);
+  transform: scale(1);
   transition: 0.5s;
 }
 
